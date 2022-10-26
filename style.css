@@ -1,0 +1,115 @@
+body {
+  background-color: #252422;
+  color: #fffcf2;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1.5;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #eb5e28;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+
+#about h2{
+  font-family: 'Creepster', cursive;
+}
+#about {
+  width: 100%;
+}
+
+#about p{
+  background-color: #403d39;
+  margin: 0 auto 30px;
+  border-radius: 5px;
+}
+#about img{
+border-radius: 150px;
+width: 100%;
+}
+#hobbies h2 {
+  font-family: 'Creepster', cursive;
+  font-size: 75px;
+}
+#hobbies ul{
+  background-color: #403d39;
+  margin: 0 auto 30px;
+  border-radius: 5px;
+  text-align: center;
+  list-style: none;
+}
+
+#rick {
+  background-image: url("https://unsplash.com/photos/Wq-nmL12bCU");
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin:0 auto;
+}
+#rick a{
+display: block;
+font-family: 'Creepster', cursive;
+height: 175px;
+width: 160px;
+padding: 140px;
+text-decoration: none;
+}
+
+#rick a:hover {
+  text-decoration: underline;
+}
+
+#socials ul{
+  list-style: none;
+}
+#socials li {
+  text-decoration: none;
+}
+#socials li:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  #about {
+  }
+
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
